@@ -6,14 +6,14 @@ Usage:
 
 - Create directories
 
-	mkdir -p app/uploads/attachments  (For original file)
-	mkdir -p app/webroot/files/attachments (For resized image file)
+		app/uploads/attachments  (For original file)
+		app/webroot/files/attachments (For resized image file)
 
 - Include configuration file.
 
 		app/config/bootstrap.php
 
-			require_once ROOT . DS . '/plugins/' . DS . 'attachment' . DS . 'config' .
+			require_once ROOT . DS . 'plugins' . DS . 'attachment' . DS . 'config' .
 			DS . 'bootstrap.php';
 
 - Add behavior to model  
